@@ -1,3 +1,12 @@
-*
-!data/
-!.gitignore
+/vendor
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+/.idea
+/.vscode

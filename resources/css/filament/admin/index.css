@@ -1,0 +1,169 @@
+:root {
+    color-scheme: light;
+}
+
+.fi-body {
+    background: #fff;
+    color: #111;
+    font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+.fi-sidebar,
+.fi-sidebar-header,
+.fi-topbar {
+    background: #fff;
+    box-shadow: none;
+}
+
+.fi-sidebar {
+    border-inline-end: 1px solid #eaeaea;
+}
+
+.fi-sidebar-nav {
+    gap: .375rem;
+}
+
+.fi-sidebar-item-btn {
+    border-radius: .35rem;
+    color: #555;
+}
+
+.fi-sidebar-item.fi-active > .fi-sidebar-item-btn {
+    background: #111 !important;
+    color: #fff !important;
+}
+
+.fi-sidebar-item.fi-active > .fi-sidebar-item-btn .fi-sidebar-item-label,
+.fi-sidebar-item.fi-active > .fi-sidebar-item-btn .fi-sidebar-item-icon {
+    color: #fff !important;
+}
+
+.fi-sidebar-item-has-url > .fi-sidebar-item-btn:hover,
+.fi-sidebar-item-has-url > .fi-sidebar-item-btn:focus-visible {
+    background: #f5f5f5;
+    color: #111;
+}
+
+.fi-sidebar-item:not(.fi-active) .fi-sidebar-item-icon {
+    color: #777;
+}
+
+.fi-topbar {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.fi-main-ctn,
+.fi-main {
+    background: #fff;
+}
+
+.fi-page-header-heading {
+    color: #111;
+    font-weight: 600;
+    letter-spacing: -.025em;
+}
+
+.fi-section,
+.fi-ta-ctn,
+.fi-wi-stats-overview-stat {
+    border: 1px solid #eaeaea !important;
+    border-radius: .4rem !important;
+    background: #fff;
+    box-shadow: none !important;
+}
+
+.fi-ta-header-cell {
+    background: #fff;
+    color: #777;
+    font-weight: 500;
+}
+
+.fi-ta-header-cell,
+.fi-ta-cell {
+    padding-block: .85rem;
+}
+
+.fi-ta-row {
+    border-color: #eaeaea;
+}
+
+.fi-btn {
+    border-radius: .35rem;
+    font-weight: 500;
+    box-shadow: none !important;
+}
+
+.fi-btn-color-primary {
+    background: #111 !important;
+    color: #fff !important;
+}
+
+.fi-btn-color-primary:hover {
+    background: #333 !important;
+}
+
+.fi-input-wrp {
+    border-color: #d8d8d8;
+    border-radius: .35rem;
+    box-shadow: none;
+}
+
+.fi-input-wrp:focus-within {
+    border-color: #111;
+    --tw-ring-color: #111;
+}
+
+.fi-auth-page {
+    background: #fff;
+}
+
+.fi-auth-page .fi-simple-main {
+    border: 1px solid #eaeaea;
+    border-radius: .4rem;
+    background: #fff;
+    box-shadow: none;
+    padding: 2rem;
+}
+
+.fi-auth-page .fi-logo {
+    color: #111;
+}
+
+.fi-wi-stats-overview-stat-value {
+    color: #111;
+    letter-spacing: -.035em;
+}
+
+.fi-badge {
+    border-radius: .25rem;
+    --primary-50: #f5f5f5;
+    --primary-400: #777;
+    --primary-600: #555;
+}
+
+@media (max-width: 640px) {
+    .fi-page-header {
+        gap: 1rem;
+    }
+
+    .fi-auth-page .fi-simple-main {
+        padding: 1.5rem;
+    }
+}
+
+.fi-color-danger,
+.fi-color-info,
+.fi-color-success,
+.fi-color-warning {
+    --color-50: #f5f5f5;
+    --color-100: #ededed;
+    --color-200: #e0e0e0;
+    --color-300: #c8c8c8;
+    --color-400: #999;
+    --color-500: #777;
+    --color-600: #555;
+    --color-700: #333;
+    --color-800: #222;
+    --color-900: #111;
+    --color-950: #111;
+}
